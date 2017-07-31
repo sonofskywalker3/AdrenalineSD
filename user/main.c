@@ -260,6 +260,8 @@ int AdrenalineCompat(SceSize args, void *argp) {
 					path = "sdstor0:int-lp-ign-user";
 				} else if (config.ms_location == MEMORY_STICK_LOCATION_IMC0) {
 					path = "sdstor0:int-lp-ign-userext";
+				} else if (config.ms_location == MEMORY_STICK_LOCATION_UMA0) {
+					path = "sdstor0:uma-pp-act-a";
 				} else {
 					path = "sdstor0:xmc-lp-ign-userext";
 

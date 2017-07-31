@@ -595,6 +595,9 @@ static int ScePspemuMsfsDevctl(const char *dev, unsigned int cmd, void *indata, 
 			case MEMORY_STICK_LOCATION_UR0:
 				path = "ur0:";
 				break;
+			case MEMORY_STICK_LOCATION_UMA0:
+				path = "uma0:";
+				break;
 			default:
 				path = "imc0:";
 				break;

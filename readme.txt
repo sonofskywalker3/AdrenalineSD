@@ -21,6 +21,10 @@
   4) Type any connection name and press RIGHT two times. You'll now see the message 'Press the X/O button to save settings'.
   5) Press X/O on any connection name.
   6) Follow the instructions to update Adrenaline.
+
+- Changelog v5.1.1 -
+  - Added UMA0: as Adrenaline storage (IN TESTING)
+
   
 - Changelog v5.1 -
   - Added ability to skip adrenaline boot logo.
